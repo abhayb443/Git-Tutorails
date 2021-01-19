@@ -108,5 +108,8 @@ Flow -
 gedit Git\ Tutorial.txt --> git status --> git add . --> git status --> git stash -u --> git status --> git stash list --> git stash apply
 
 
+Mistake made
+
+
 
 
