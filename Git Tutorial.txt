@@ -131,3 +131,14 @@ Flow -
 git add .  --> git commit -m "Mistake made here"  --> git log --author='abhayb443'  --> git log --oneline  --> git revert e0cc88b 
 
 
+git revert HEAD
+
+To revert the last commit from the repo 
+
+
+git cherry-pick f6288e2
+
+To cherry pick the point where we want our repository to be at. 
+
+
+
