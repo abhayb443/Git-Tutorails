@@ -89,5 +89,24 @@ git push origin master
 To push the changes to the master from the local repo 
 
 
+git stash -u 
+
+To save unfinished or wip code into a place that can be resumed later, without losing it due to urgent work on another bug or feature
+
+
+git stash list 
+
+To view the stash in the repo 
+
+
+git stash apply 
+
+To apply the old changes back to the repo for rework which was put to halt 
+
+
+Flow - 
+gedit Git\ Tutorial.txt --> git status --> git add . --> git status --> git stash -u --> git status --> git stash list --> git stash apply
+
+
 
 
