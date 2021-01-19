@@ -108,26 +108,5 @@ Flow -
 gedit Git\ Tutorial.txt --> git status --> git add . --> git status --> git stash -u --> git status --> git stash list --> git stash apply
 
 
-git log
-
-To check the git logs, information like date of commit, commit message and author of commit
-
-
-git log --before="19-01-2021"
-To check the git logs, information like date of commit, commit message and author of commit, based on date condition before the mentioned date
-
-
-git log --author='abhayb443'
-
-To check the git logs, information like date of commit, commit message and author of commit, based on author of commit 
-
-
-git revert e0cc88b
-
-To revert the git state from the latest state to the earlier state of the mentioned git commit hash, say a commit before the given hash 
-
-
-Flow - 
-git add .  --> git commit -m "Mistake made here"  --> git log --author='abhayb443'  --> git log --oneline  --> git revert e0cc88b 
 
 
