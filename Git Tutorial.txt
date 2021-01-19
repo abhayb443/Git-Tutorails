@@ -58,4 +58,10 @@ git merge feature
 To merge the feature branch with the master branch 
 
 
+git add .
+
+To add all files from the working area to the staging area 
+
+
+
 
