@@ -141,4 +141,8 @@ git cherry-pick f6288e2
 To cherry pick the point where we want our repository to be at. 
 
 
+git rebase master 
 
+To do set of commits without affecting the master branch's entry and later merging all the changes as one commit
+Its an example of parallel git commit structure
+ 
