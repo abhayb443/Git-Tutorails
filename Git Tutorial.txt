@@ -24,4 +24,38 @@ git commit -m "File added"
 To commit the file from the staging area to the repository with a custom message 
 
 
+git checkout -b feature 
+
+To create and switch to the feature branch 
+
+
+git delete -d feature
+
+To delete the feature branch 
+
+
+git delete -D feature 
+
+To delete the feature branch. Here, all staging changes would be lost as well, without any warning from the git 
+
+
+Step -1 
+git status 
+*feature
+master 
+ 
+Step -2 
+git checkout master 
+
+Step -3 
+git status 
+*master 
+feature 
+
+Step -4 
+git merge feature
+
+To merge the feature branch with the master branch 
+
+
 
