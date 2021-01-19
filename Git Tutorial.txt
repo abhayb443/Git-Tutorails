@@ -3,3 +3,25 @@ git init
 
 Turn a directory into a active git directory
 
+
+git status 
+
+To check the status of the repository 
+
+
+git checkout feature 
+
+To switch to the feature branch 
+
+
+git add 
+
+To add the file to the staging area from the working area 
+
+
+git commit -m "File added" 
+
+To commit the file from the staging area to the repository with a custom message 
+
+
+
