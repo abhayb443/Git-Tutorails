@@ -64,4 +64,30 @@ To add all files from the working area to the staging area
 
 
 
+git remote add origin "HTTP or SSH of the repo"
+
+To connect the local repo to the remote repository 
+
+
+git pull 
+
+To take the latest changes from the remote repo to the local repository 
+
+
+git clone "HTTP or SSH"
+
+To take the latest changes from the remote remove, if the repo doesn't exist at the local repo 
+
+
+git pull origin master 
+
+To take the latest changes from the specified branch name to the local machine 
+
+
+git push origin master 
+
+To push the changes to the master from the local repo 
+
+
+
 
