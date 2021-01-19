@@ -145,4 +145,10 @@ git rebase master
 
 To do set of commits without affecting the master branch's entry and later merging all the changes as one commit
 Its an example of parallel git commit structure
- 
+
+
+git checkout Git\ Tutorial.txt
+
+To checkout or to discard the changes of the current file in the repository 
+
+
